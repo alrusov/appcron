@@ -1,12 +1,11 @@
 github.com/alrusov/bufpool v0.1.2 h1:+pyhEHHBRflJqOW1vS8hrVDGxR49bLCAunik37t0S04=
 github.com/alrusov/bufpool v0.1.2/go.mod h1:WQGPTsMZFX0fE9s+PLloqXgXMjgg6WICjTvqp9aWpNU=
-github.com/alrusov/log v0.1.15 h1:x4uzOEaj1oohN615VQbrnxftaPtg3mZjBkHC5bv+Z6k=
-github.com/alrusov/log v0.1.15/go.mod h1:5mDAhuIxu9Wiz5IDriGIdhceLXtZviBOiiqVjFrYsEo=
+github.com/alrusov/log v0.1.16 h1:17sVccCvlpBQerLWOEgJlI9Tct3gxmc5O9a1nTxFxFg=
+github.com/alrusov/log v0.1.16/go.mod h1:quR0XXLu4+o1qwCut80j+TOhyPpCR3gjIMh7NqvMHoA=
 github.com/alrusov/misc v0.1.13/go.mod h1:F7PSy8shbhYX72CsRpUFBmVyc8Huj0SqGgGKKy+hFn4=
 github.com/alrusov/misc v0.1.14 h1:p/pYrpqXNamKpuia38UIias1s3JpDgpovVcypkwbYmE=
 github.com/alrusov/misc v0.1.14/go.mod h1:F7PSy8shbhYX72CsRpUFBmVyc8Huj0SqGgGKKy+hFn4=
 github.com/alrusov/panic v0.1.5 h1:0GXRisZXYsIpiyVlq6mNAPhkQroHbhC+PqzyWBvTFOI=
 github.com/alrusov/panic v0.1.5/go.mod h1:ywn7KlmifsJYQulOUJSaIvccMj/u9pAmI7d86EVrWwk=
-github.com/robfig/cron v1.2.0 h1:ZjScXvvxeQ63Dbyxy76Fj3AT3Ut0aKsyd2/tl3DTMuQ=
 github.com/robfig/cron/v3 v3.0.1 h1:WdRxkvbJztn8LMz/QEvLN5sBU+xKpSqwwUO1Pjr4qDs=
 github.com/robfig/cron/v3 v3.0.1/go.mod h1:eQICP3HwyT7UooqI/z+Ov+PtYAWygg1TEWWzGIFLtro=

@@ -23,7 +23,7 @@ var (
 
 // Init --
 func Init(tzFile string, location string) (err error) {
-	cron.DefaultLogger = &log.CronLog{}
+	cron.DefaultLogger = &CronLog{}
 
 	if tzFile != "" {
 		zi, err := misc.AbsPath(tzFile)
