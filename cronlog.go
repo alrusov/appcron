@@ -1,10 +1,10 @@
 package appcron
 
 import (
+	"bytes"
 	"fmt"
 	"time"
 
-	"github.com/alrusov/bufpool"
 	"github.com/alrusov/log"
 	"github.com/alrusov/misc"
 )
@@ -29,8 +29,7 @@ func (cl *CronLog) Error(err error, msg string, keysAndValues ...interface{}) {
 //----------------------------------------------------------------------------------------------------------------------------//
 
 func (cl *CronLog) makeMsg(err error, msg string, keysAndValues ...interface{}) string {
-	var out = bufpool.GetBuf()
-	defer bufpool.PutBuf(out)
+	var out = new(bytes.Buffer)
 
 	if err != nil {
 		out.WriteString(err.Error())
@@ -64,8 +63,7 @@ func (cl *CronLog) makeFmt(p ...interface{}) string {
 		return ""
 	}
 
-	var fmt = bufpool.GetBuf()
-	defer bufpool.PutBuf(fmt)
+	var fmt = new(bytes.Buffer)
 
 	for i := 0; i < n; i += 2 {
 		if i > 0 {
