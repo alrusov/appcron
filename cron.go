@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/robfig/cron/v3"
+	"github.com/robfig/cron"
 
 	"github.com/alrusov/log"
 	"github.com/alrusov/misc"
