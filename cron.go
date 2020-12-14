@@ -46,7 +46,8 @@ func Init(tzFile string, location string) (err error) {
 	)
 
 	go func() {
-		defer panic.SaveStackToLog()
+		panicID := panic.ID()
+		defer panic.SaveStackToLogEx(panicID)
 		core.Run()
 	}()
 
