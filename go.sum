@@ -1,11 +1,9 @@
-github.com/alrusov/log v0.1.22 h1:ZFy/O5+73cM+/DwaQ1AObxSbiqdcI8GWa0V9Lt0NOSk=
-github.com/alrusov/log v0.1.22/go.mod h1:Y5xw6PGGpj56+JqMMe5ta/3fThm25tpZI/MSnrlLWxI=
-github.com/alrusov/misc v0.1.18/go.mod h1:ylFoP0hgLCkK2QfVE4pHRSQW2rQ+sPd55h3GPeI+Nf8=
-github.com/alrusov/misc v0.1.19 h1:aDsqj0AUrKWsKniSKN6X4Gd4EHao0qIi0ZlFcaE7mps=
-github.com/alrusov/misc v0.1.19/go.mod h1:ylFoP0hgLCkK2QfVE4pHRSQW2rQ+sPd55h3GPeI+Nf8=
-github.com/alrusov/panic v0.1.7 h1:/liIEmic4UReT+FDzCvyVU39+o5QS5p/YRYRs1E5QWU=
-github.com/alrusov/panic v0.1.7/go.mod h1:oHGmj6Zt5DH25oWO+iKFYbuysbtz6BbodUBewO7HZNU=
+github.com/alrusov/log v0.1.26 h1:1ePe5eatYjOXETuLQ5sXv9OphsmPbHf3cfla4nRXgms=
+github.com/alrusov/log v0.1.26/go.mod h1:MEIKDpYXuQQj5VNdSX+7cW6keXCYQwAu5KTFZVHRodY=
+github.com/alrusov/misc v0.1.31 h1:CMWlcsmGT7mRl2RX6SOVYYkYnwU7dYOEJG+hYQ6yrCc=
+github.com/alrusov/misc v0.1.31/go.mod h1:wq7jkLgy8u0ogF2EyY1Goes9GftiRcK4w1wH1vM9JFc=
+github.com/alrusov/panic v0.1.10 h1:uD6YsdhCe35hlPWQFuf5CjEo0KPFzUzTxsnzHhDoF3g=
+github.com/alrusov/panic v0.1.10/go.mod h1:1ffBuXJsSXYDgOopw7l4m60ifDAbmyzDAnq5NIqJLDg=
 github.com/robfig/cron v1.2.0 h1:ZjScXvvxeQ63Dbyxy76Fj3AT3Ut0aKsyd2/tl3DTMuQ=
-github.com/robfig/cron v1.2.0/go.mod h1:JGuDeoQd7Z6yL4zQhZ3OPEVHB7fL6Ka6skscFHfmt2k=
 github.com/robfig/cron/v3 v3.0.1 h1:WdRxkvbJztn8LMz/QEvLN5sBU+xKpSqwwUO1Pjr4qDs=
 github.com/robfig/cron/v3 v3.0.1/go.mod h1:eQICP3HwyT7UooqI/z+Ov+PtYAWygg1TEWWzGIFLtro=
