@@ -29,7 +29,7 @@ func (cl *CronLog) Error(err error, msg string, keysAndValues ...interface{}) {
 //----------------------------------------------------------------------------------------------------------------------------//
 
 func (cl *CronLog) makeMsg(err error, msg string, keysAndValues ...interface{}) string {
-	var out = new(bytes.Buffer)
+	out := new(bytes.Buffer)
 
 	if err != nil {
 		out.WriteString(err.Error())
@@ -47,7 +47,9 @@ func (cl *CronLog) makeMsg(err error, msg string, keysAndValues ...interface{}) 
 		if out.Len() == 0 {
 			out.WriteString(kvFmt)
 		} else {
-			out.WriteString(" (" + kvFmt + ")")
+			out.WriteString(" (")
+			out.WriteString(kvFmt)
+			out.WriteString(")")
 		}
 	}
 
