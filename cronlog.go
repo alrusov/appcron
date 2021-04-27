@@ -53,7 +53,7 @@ func (cl *CronLog) makeMsg(err error, msg string, keysAndValues ...interface{}) 
 		}
 	}
 
-	return fmt.Sprintf("[cron] "+string(out.Bytes()), keysAndValues...)
+	return fmt.Sprintf("[cron] "+out.String(), keysAndValues...)
 }
 
 //----------------------------------------------------------------------------------------------------------------------------//
