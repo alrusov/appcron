@@ -17,18 +17,18 @@ type CronLog struct{}
 //----------------------------------------------------------------------------------------------------------------------------//
 
 // Info --
-func (cl *CronLog) Info(msg string, keysAndValues ...interface{}) {
+func (cl *CronLog) Info(msg string, keysAndValues ...any) {
 	log.Message(log.TRACE2, cl.makeMsg(nil, msg, keysAndValues...))
 }
 
 // Error --
-func (cl *CronLog) Error(err error, msg string, keysAndValues ...interface{}) {
+func (cl *CronLog) Error(err error, msg string, keysAndValues ...any) {
 	log.Message(log.ERR, cl.makeMsg(err, msg, keysAndValues...))
 }
 
 //----------------------------------------------------------------------------------------------------------------------------//
 
-func (cl *CronLog) makeMsg(err error, msg string, keysAndValues ...interface{}) string {
+func (cl *CronLog) makeMsg(err error, msg string, keysAndValues ...any) string {
 	out := new(bytes.Buffer)
 
 	if err != nil {
@@ -58,7 +58,7 @@ func (cl *CronLog) makeMsg(err error, msg string, keysAndValues ...interface{}) 
 
 //----------------------------------------------------------------------------------------------------------------------------//
 
-func (cl *CronLog) makeFmt(p ...interface{}) string {
+func (cl *CronLog) makeFmt(p ...any) string {
 	n := len(p)
 
 	if n == 0 {
